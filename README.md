@@ -38,5 +38,5 @@ console.log("Cya in the releases page!")
 int main(){
    printf("Fun Fact. I wrote this project in my phone using pydroid!");
    return 0;
-
+}
 ```
