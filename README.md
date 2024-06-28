@@ -16,5 +16,5 @@ this project is **made for laughs and giggles**
 if you'd like to use this project.
 make sure that you have install python and discord.py with discord.ext
 
-Download the zip and use the password **Discord App Builder**
-Open the funcEditor.bat inorder to create commands
+Download the zip from the **RELEASES** and use the password **Discord App Builder** IF needed
+Open the funcEditor.bat/funcEditor.sh inorder to create commands
