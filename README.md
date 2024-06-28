@@ -19,8 +19,8 @@ make sure that you have install python and discord.py with discord.ext
 Download the zip from the **RELEASES** and use the password **Discord App Builder** IF needed
 Open the funcEditor.bat/funcEditor.sh inorder to create commands
 
-'''
+```
 print("""
 HAVE FUN AND THANKS FOR WASTING YOUR TIME BY READING THIS..
 """)
-'''
+```
