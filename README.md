@@ -32,3 +32,11 @@ echo Make Sure You Have Laughs And Giggles!
 ```javascript
 console.log("Cya in the releases page!")
 ```
+
+```c
+#include <stdio.h>
+int main(){
+   printf("Fun Fact. I wrote this project in my phone using pydroid!");
+   return 0;
+
+```
