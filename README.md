@@ -1,6 +1,6 @@
 # Discord-App-Builder
 creates discord bots/apps
-made for **windows 10**
+made for **windows 10** and **Lunix Distros**
 written in **Python**!
 
 
