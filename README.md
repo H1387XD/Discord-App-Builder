@@ -26,7 +26,7 @@ OR
 ```bat
 pip install discord
 ```
-
+**AND YOUR DONE INSTALLING!**
 ```python
 print("""
 HAVE FUN AND THANKS FOR WASTING YOUR TIME BY READING THIS..
