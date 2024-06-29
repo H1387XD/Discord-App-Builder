@@ -12,6 +12,9 @@ this project is **made for laughs and giggles**
 if you'd like to use this project.
 
 Download the zip from the **RELEASES** and use the password **Discord App Builder** IF needed
+```bat
+SIDENOTE: Downloading from the release might end up buggy. It's recommended to download the sources instead of the RELEASES
+```
 **OR** Download the sources and run both "function Editor.py" and "config Editor.py"
 
 # Compilation
