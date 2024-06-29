@@ -118,5 +118,5 @@ if len(sys.argv)==4:
 	################################
 	#END OF WATERMARK FOR OUTPUT.PY#
 	################################
-os.system('clear')
+
 print("Completed Compiling\nRunning Bot")
