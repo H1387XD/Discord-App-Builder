@@ -2,22 +2,30 @@
 creates discord bots/apps
 made for **windows 10** and **Lunix Distros**
 written in **Python**!
-
-
-# Discord App Builder Info
 this project is **made for laughs and giggles**
-
-# don't take this project **too seriously**
+**don't take this project too seriously**
 
 
 
 # Discord App Builder *HOW TO INSTALL*
 
 if you'd like to use this project.
-make sure that you have install python and discord.py with discord.ext
 
 Download the zip from the **RELEASES** and use the password **Discord App Builder** IF needed
-Open the funcEditor.bat/funcEditor.sh inorder to create commands
+**OR** Download the sources and run both "function Editor.py" and "config Editor.py"
+
+# Compilation
+You'll need to install <a href="https://www.python.org/downloads">python</a>
+For the discord bot to run **AND** to run the function and config Editor
+
+**RUN THIS COMMAND IN THE TERMINAL**
+```bash
+python3 -m pip install discord
+```
+OR
+```bat
+pip install discord
+```
 
 ```python
 print("""
