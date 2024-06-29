@@ -1,5 +1,6 @@
 import sys
 import os
+import random
 if len(sys.argv)<3:
 	quit("Segmentation Fault")
 BOT_TOKEN=None
@@ -83,6 +84,8 @@ for function in funcs.split("\n"):
 		output.write(f"{template}{functionName}{templateEnd}await member.ban()\n\tawait ctx.send(\"{functionReply}\")\n")
 	if functionMode=="2":
 		output.write(f"{template}{functionName}{templateEnd}await member.kick()\n\tawait ctx.send(\"{functionReply}\")\n")
+	if functionMode=="3":
+		output.write(f"{template}{functionName}{templateEnd2} await ctx.send("\"{functionReply} {random.randint(0,100)}\"\n")
 output.write(f"client.run(\"{BOT_TOKEN}\")")
 
 #########################
