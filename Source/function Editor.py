@@ -80,7 +80,14 @@ class FunctionEditor():
 
 	def compile(self):
 		self.root.destroy()
-		os.system("build.sh")
+		#open build.sh/build.bat in the correct operating system
+		try:
+			os.system("clear")
+			os.system("chmod +x .\build.sh")
+			os.system("build.sh")
+		except:
+			os.system("cls")
+			os.system("build.bat")
 
 	def createCommand(self):
 		if len(self.commandName.get().split(' ')) != 1:
