@@ -15,14 +15,14 @@ class FunctionEditor():
 		self.commandMode = CTkOptionMenu(
 		    self.root,
 		    variable=self.dropdown,
-		    values=["Reply", "Ban Command", "Kick Command"])
+		    values=["Reply", "Ban Command", "Kick Command", "Random Number"])
 		self.commandMode.configure(width="15", height="1")
 		self.commandName.pack(pady=5)
 		self.commandResponse = CTkEntry(self.root)
 		self.commandResponse.configure(placeholder_text="Command Response")
 		self.commandResponse.pack(pady=9)
 		self.commandMode.pack(pady=5)
-		self.dropdownToIndex = {"Reply": 0, "Ban Command": 1, "Kick Command": 2}
+		self.dropdownToIndex = {"Reply": 0, "Ban Command": 1, "Kick Command": 2, "Random Number": 3}
 		self.b = CTkButton(self.root,
 		                   text="Create Command",
 		                   command=self.createCommand)
